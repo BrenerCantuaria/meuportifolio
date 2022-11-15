@@ -226,7 +226,7 @@ footer{
     height: 8vh;
 }
 
-/*tela menor que 400px*/
+/*tela menor que 500px*/
 /*Max-width telas menores que alguma resolução*/
 @media screen and (max-width:500px) {
     
