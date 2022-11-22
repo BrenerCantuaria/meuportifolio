@@ -96,7 +96,6 @@ header>nav>ul>li>a{
     color: #551A8B;
 }
 #devicessvg{
-    margin-top: 6rem;
     width: 300px;
     height: auto;
 }
@@ -153,6 +152,36 @@ padding: 2px 16px;
 box-shadow: 0 4px 8px 0 rgba(16, 20, 30);
 transition: 0.3s;
 border-radius: 5px;
+}
+#project{
+    background: #080808;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*essa altura ocupa toda a section project, posteriormente deve ser mudada para adicionar novos projetos*/
+    height: 500px;
+}
+.projectCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.projectCards{
+    box-shadow: 0 4px 8px 0 rgba(16, 20, 30);
+    transition: 0.3s;
+}
+
+.projectCards:hover {
+    box-shadow: 0 8px 16px 0 rgb(55, 80, 142);
 }
 
 #works{
@@ -233,7 +262,7 @@ footer{
     #nav-list{
         display: flex;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 13px;
         gap: 20px;
         list-style: none;
     }
@@ -249,7 +278,12 @@ footer{
         background: #080808;
         height: 25rem;
     }
+    
     #contato{
+        background: #080808;
+        height: 30rem;
+    }
+    #project{
         background: #080808;
         height: 30rem;
     }
@@ -263,7 +297,7 @@ footer{
         display: table-cell;
         text-align: justify;
         margin-top: 1rem;
-        font-size: 10px;
+        font-size: 11px;
         color:#9C9C9C;
     }
     #avatar{
@@ -275,7 +309,6 @@ footer{
         height: auto;
     }
     #devicessvg{
-        margin-top: 6rem;
         width: 200px;
         height: auto;
     }
@@ -283,6 +316,13 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: auto;
+        width: 150px;
+    }
+    .projectCards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: auto;
         width: 150px;
     }
@@ -294,4 +334,8 @@ footer{
         box-shadow: 0 4px 8px 0 rgba(16, 20, 30);
         transition: 0.3s; 
     } 
+    .avatarIOS{
+        height: auto;
+        width: 200px;
+    }
 }
